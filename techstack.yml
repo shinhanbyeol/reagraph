@@ -1,0 +1,711 @@
+repo_name: shinhanbyeol/reagraph
+report_id: 176b37b3fabc34d74345c111deba27f1
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-14T04:39:15+00:00'
+requested_by: amcdnl
+provider: github
+branch: master
+detected_tools_count: 53
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/shinhanbyeol/reagraph
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/shinhanbyeol/reagraph
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-05-02 13:38:18.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-10-05 12:17:25.000000000 Z
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  version: 6.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-10-05 12:17:25.000000000 Z
+- name: Zustand
+  description: Bear necessities for state management in React
+  website_url: https://github.com/react-spring/zustand
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Monitoring for Analytics
+  image_url: https://img.stackshare.io/service/11559/zustand.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.12.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: babel.config.js
+  last_updated_by: Austin
+  last_updated_on: 2022-04-27 17:55:00.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-04-27 17:55:00.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: Austin
+  last_updated_on: 2022-04-27 17:55:00.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 28.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-04-27 17:55:00.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-06-22 12:00:33.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Austin
+  last_updated_on: 2022-04-27 17:55:00.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-04-27 17:55:00.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-04-27 17:55:00.000000000 Z
+- name: Chromatic
+  website_url: https://www.chromatic.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/18784/empty-logo-square.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-05-02 17:50:50.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph
+  detection_source: Repo Metadata
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-05-02 17:29:54.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: three.js
+  description: A JavaScript 3D library
+  website_url: https://threejs.org/
+  version: 0.143.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Game Development
+  image_url: https://img.stackshare.io/service/5883/preview.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: "@storybook/addon-storysource"
+  description: Stories addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-storysource
+  version: 6.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16977/default_3823aba25646a3f105cc15ee9df24fdf78972314.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-10-05 12:17:25.000000000 Z
+- name: "@storybook/addons"
+  description: Storybook addons store
+  package_url: https://www.npmjs.com/@storybook/addons
+  version: 6.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16200/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-10-05 12:17:25.000000000 Z
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 6.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-10-05 12:17:25.000000000 Z
+- name: "@storybook/theming"
+  description: Core Storybook Components
+  package_url: https://www.npmjs.com/@storybook/theming
+  version: 6.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17754/default_8cfeb169319d5cc646c1e13f8a10e7d7e7430d7c.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-10-05 12:17:25.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 13.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-10-05 12:17:25.000000000 Z
+- name: "@types/classnames"
+  description: TypeScript definitions for classnames
+  package_url: https://www.npmjs.com/@types/classnames
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16431/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 28.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-10-05 12:17:25.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-10-05 12:17:25.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.33.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.33.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-05-02 13:38:18.000000000 Z
+- name: d3-array
+  description: Array manipulation, ordering, searching, summarizing, etc
+  package_url: https://www.npmjs.com/d3-array
+  version: 3.2.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17322/default_2f1b682e838d69744876821bf705f0b2974318b1.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-07-19 11:27:20.000000000 Z
+- name: d3-scale
+  description: Encodings that map abstract data to visual representation
+  package_url: https://www.npmjs.com/d3-scale
+  version: 4.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16978/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-05-02 13:38:18.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.30.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-10-05 12:17:25.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-10-05 12:17:25.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 7.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-05-02 17:29:54.000000000 Z
+- name: jest-junit
+  description: A jest reporter that generates junit xml files
+  package_url: https://www.npmjs.com/jest-junit
+  version: 13.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16536/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 12.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: postcss-nested
+  description: PostCSS plugin to unwrap nested rules like how Sass does it
+  package_url: https://www.npmjs.com/postcss-nested
+  version: 4.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16575/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-05-02 13:38:18.000000000 Z
+- name: postcss-preset-env
+  description: Convert modern CSS into something browsers understand
+  package_url: https://www.npmjs.com/postcss-preset-env
+  version: 6.7.1
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16373/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-05-02 13:38:18.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-10-05 12:17:25.000000000 Z
+- name: rollup-plugin-commonjs
+  description: Convert CommonJS modules to ES2015
+  package_url: https://www.npmjs.com/rollup-plugin-commonjs
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15873/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: rollup-plugin-node-resolve
+  description: Bundle third-party dependencies in node_modules
+  package_url: https://www.npmjs.com/rollup-plugin-node-resolve
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15859/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: rollup-plugin-peer-deps-external
+  description: Rollup plugin to automatically add a library's peerDependencies to
+    its bundle's external config
+  package_url: https://www.npmjs.com/rollup-plugin-peer-deps-external
+  version: 2.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16508/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: rollup-plugin-postcss
+  description: Seamless integration between Rollup and PostCSS
+  package_url: https://www.npmjs.com/rollup-plugin-postcss
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16135/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: rollup-plugin-sourcemaps
+  description: Rollup plugin for grabbing source maps from sourceMappingURLs
+  package_url: https://www.npmjs.com/rollup-plugin-sourcemaps
+  version: 0.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16230/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-10-05 12:17:25.000000000 Z
+- name: rollup-plugin-typescript2
+  description: Seamless integration between Rollup and TypeScript
+  package_url: https://www.npmjs.com/rollup-plugin-typescript2
+  version: 0.31.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16076/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: three
+  description: JavaScript 3D library
+  package_url: https://www.npmjs.com/three
+  version: 0.143.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16653/default_cc0f40a737548852d2ee666c132c258c9a2c0cad.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 27.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/shinhanbyeol/reagraph/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Austin
+  last_updated_on: 2022-08-17 13:14:40.000000000 Z
